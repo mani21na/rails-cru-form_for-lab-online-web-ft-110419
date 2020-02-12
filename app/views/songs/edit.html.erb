@@ -1,0 +1,10 @@
+<h1>New edit</h1>
+<%= form_for(@post) do |f| %>
+  <label>Song name:</label><br>
+  <%= f.text_filed :name %><br>
+  
+  <label>Song bio:</label><br>
+  <%= f.text_erea :bio %><br>
+  
+  <%= f.submit %>
+<% end %>
